@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lhsrPHglXx5jS8KYt9KPJQa12XO/s2nEAPz2rTv5ZiE1iFN2h3dJis8Ze20+F/TLgcG39/lUAANRE52ZIwQJCQ==",
+  "dgSpecHash": "bK3n+xKMhWU9/jE+YutZczrYSLREdSUuSfwFsGnigF7b6InIfhg7aHp0Cnb1QrhACPn9HTy6eprd6OTIo8JFmA==",
   "success": true,
   "projectFilePath": "E:\\programming\\internship\\04.Strings\\CSharp-Strings-Dates-Time\\StringsAndDates\\StringsAndDates\\StringsAndDates.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Irina\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
   "logs": []
 }
