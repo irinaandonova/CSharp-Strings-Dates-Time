@@ -54,11 +54,11 @@ namespace StringsAndDates
         }
         public void CreateSentance(string adjective,string noun, string verb)
         {
-            string firstLetter = adjective.Substring(adjective[0]);
+            string firstLetter = adjective.Substring(0, 1);
             string sentance;
             adjective = adjective.Remove(0, 1);
-            adjective = string.Concat(firstLetter, adjective);
-            sentance = string.Format(adjective, noun, verb, '.');
+            adjective = string.Concat(firstLetter.ToUpper(), adjective);
+            sentance = string.Format("{0} {1} {2}.",adjective, noun, verb);
             Console.WriteLine(sentance);
         }
         public void EndStringsGame()
