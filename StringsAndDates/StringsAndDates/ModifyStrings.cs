@@ -6,13 +6,12 @@ namespace StringsAndDates
 {
     public class ModifyStrings
     {
-        private string Greeting = "Hello, ";
-        private string Farewell = "Goodbye, ";
-        private string Yell;
+        private string greeting;
+        private string farewell;
+        private string yell;
         private DateTime startingTime;
         private DateTime endingTime;
-        
-       
-        
+
+
     }
 }
